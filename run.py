@@ -9,10 +9,8 @@ parser = argparse.ArgumentParser(
 
 parser.add_argument('-f', '--filename')
 
-def run_agentcoder():
-    args = parser.parse_args()
-    input = load_input(args.filename or "1.txt")
-
+def run_agentcoder(input) -> None:
+    """Run AgentCoder algorithm for a single input."""
     print_step("GENERATING CODE COMPLETION")
     function_completion = generate_function(input)
     print(function_completion)
@@ -37,4 +35,7 @@ def run_agentcoder():
             break
 
 if __name__ == "__main__":
-    run_agentcoder()
+    args = parser.parse_args()
+    input = load_input(args.filename or "1.txt")
+
+    run_agentcoder(input)
