@@ -1,0 +1,4 @@
+Analyze the function stub and complete it to the best of your abilities.
+First explain your reasoning, then provide your code completion.
+
+Input:

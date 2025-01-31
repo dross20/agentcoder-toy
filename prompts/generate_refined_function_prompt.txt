@@ -1,0 +1,2 @@
+Analyze the previous function attempt, the errors thrown or tests failed, and the function’s intended purpose.
+First, explain your reasoning for the necessary improvements. Then, provide a refined version of the function that addresses the issues.
